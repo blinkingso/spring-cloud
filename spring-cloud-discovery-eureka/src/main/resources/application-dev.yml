@@ -1,0 +1,7 @@
+eureka:
+  instance:
+    hostname: discovery
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url: http://${eureka.instantce.hostname}:${server.port}/eureka/

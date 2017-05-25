@@ -1,12 +1,9 @@
 server:
   port: 8761
-  context-path: /eureka/
 spring:
   profiles:
     active: application-dev.yml
   application:
     name: discovery-eureka
-eureka:
-  instance:
-    hostname: discovery
+
 
